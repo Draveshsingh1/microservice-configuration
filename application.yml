@@ -6,3 +6,11 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultzone: http://localhost:8761/eureka
+user:
+  name:
+    mandatory: Name is mandatory
+  email:
+    invalid: Please enter a valid email
+  password:
+    size: Password must be between 8 and 20 characters
+
